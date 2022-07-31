@@ -1,6 +1,7 @@
 :root {
     --wrapper-background: transparent;
     --element-background: #3F3F3F;
+    --element-background-dark: #323232;
     --element-hover: #3F80b0;
     --color-confirm: #37BD3C;
     --color-deny: #C41F1F;
