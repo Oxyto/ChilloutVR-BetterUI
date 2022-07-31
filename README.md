@@ -8,9 +8,9 @@ First, you need to install the game. Then, you can go inside the game's folder a
 
 `<Game Directory>/ChilloutVR_Data/StreamingAssets/Cohtml/UIResources`
 
-At this point, you should make a backup of the folder `GameUI` and you must delete it before anything else.
+At this point, you should make a backup of the folder `GameUI` and you must recreate or delete it before anything else.
 
-Then, you can download and extract the repository ZIP file, or do a `git clone https://github.com/Oxyto/ChilloutVR-BetterUI.git` to get the latest version of the mod. Once you've done that, you must see a new folder called `GameUI`, if it's the case, anything should work perfectly.
+Then, you can download and extract the repository ZIP file, or do a `git clone https://github.com/Oxyto/ChilloutVR-BetterUI.git` to get the latest version of the mod. Once you've done that, you must put **all the content of the ZIP file** inside `GameUI` folder or rename it.
 
 ## Legal section
 
