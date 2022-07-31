@@ -1,11 +1,11 @@
 :root {
     --wrapper-background: transparent;
-    --element-background: #292929;
-    --element-hover: #525252;
+    --element-background: #3F3F3F;
+    --element-hover: #3F80b0;
     --color-confirm: #37BD3C;
     --color-deny: #C41F1F;
     --color-secondary: #ABABAB;
-    --color-btn: #323232;
+    --color-btn: #3F3F3F;
     --color-btn-warn: #C58F05;
     --color-btn-secondary: #6B6B6B;
     --color-btn-primary: #1664BE;
@@ -13,7 +13,7 @@
     --color-btn-text: #FFFFFF;
 
     --standard-text-color: #D2D2D2;
-    --standard-font-family: Droid Sans;
+    --standard-font-family: Comfortaa;
     --font-size-nrm: 24px;
     --font-size-big: 36px;
     --font-size-bigger: 48px;
@@ -23,7 +23,7 @@
     --container-border-radius: 10px;
     --button-border-radius: 10px;
 
-    --home-background: #333333;
+    --home-background: #323232;
     --panel-border-color: #1664BE;
     --panel-sub-border-color: rgba(0, 0, 0, 0.25);
     --panel-font-color: #e4e4e4;

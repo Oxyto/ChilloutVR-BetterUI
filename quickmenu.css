@@ -166,7 +166,7 @@ body {
   background-position: -220px 0px;
 }
 #quickmenu-wrapper .notification-container {
-  background: linear-gradient(180deg, #FFFFFF 0%, #717171 0.01%, #292929 17.02%);
+  background: linear-gradient(var(--element-background), #292929);
   width: 734px;
   height: 554px;
   position: absolute;
@@ -181,26 +181,27 @@ body {
   width: 42px;
   height: 42px;
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 24px;
+  left: 24px;
   background-size: 420px;
   background-position: 0px -84px;
+  scale: 150%;
 }
 #quickmenu-wrapper .notification-container .header-text {
   position: absolute;
-  top: 20px;
-  left: 77px;
+  top: 24px;
+  left: 86px;
   font-size: var(--font-size-big);
 }
 #quickmenu-wrapper .notification-container .header-button {
   background-color: var(--color-secondary);
-  width: 154px;
+  width: 320px;
   height: 47px;
   position: absolute;
   top: 20px;
-  left: 537px;
+  left: 400px;
   padding: 4px 0;
-  font-size: 30px;
+  font-size: var(--font-size-big);
   font-weight: normal;
   text-align: center;
   border: 3px solid transparent;
@@ -210,6 +211,7 @@ body {
   border-bottom-color: var(--standard-text-color);
   border-radius: 3px;
   color: var(--font-color-dark);
+  transition: filter 0.2s;
 }
 #quickmenu-wrapper .notification-container .header-button:hover {
   filter: brightness(125%);
@@ -315,6 +317,7 @@ body {
   width: 100px;
   height: 100px;
   position: absolute;
+  transition: filter 0.2s;
 }
 #quickmenu-wrapper .toolbar-container .button:hover {
   filter: brightness(50%);
@@ -370,10 +373,13 @@ body {
   border-bottom-right-radius: var(--container-border-radius);
   font-size: var(--font-size-big);
   text-align: center;
+  transition: all 0.2s;
 }
+
 #quickmenu-wrapper .quick-buttons-container .quick-button:hover,
 #quickmenu-wrapper .primary-buttons-container .quick-button:hover {
   background-color: var(--element-hover);
+  border: 1px var(--element-hover) solid;
 }
 #quickmenu-wrapper .quick-buttons-container .quick-button.disabled,
 #quickmenu-wrapper .primary-buttons-container .quick-button.disabled,
@@ -604,9 +610,11 @@ body {
   border-top-right-radius: var(--container-border-radius);
   border-bottom-left-radius: var(--container-border-radius);
   border-bottom-right-radius: var(--container-border-radius);
+  transition: filter 0.2s;
 }
 #quickmenu-wrapper .microphone-container.muted {
   background-color: var(--color-deny);
+  transition: filter 0.2s;
 }
 #quickmenu-wrapper .microphone-container .icon {
   width: 140px;
