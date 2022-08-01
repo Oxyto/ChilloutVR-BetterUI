@@ -318,10 +318,10 @@ body {
   height: 100px;
   position: absolute;
   background-color: var(--element-background);
-  transition: background-color 0.2s;
+  transition: all 0.2s;
 }
 #quickmenu-wrapper .toolbar-container .button:hover {
-  background-color: var(--element-hover);
+  scale: 115%;
 }
 #quickmenu-wrapper .toolbar-container .button-prev {
   top: 40px;
@@ -374,21 +374,23 @@ body {
   border-bottom-right-radius: var(--container-border-radius);
   font-size: var(--font-size-big);
   text-align: center;
-  transition: background-color 0.2s;
+  transition: all 0.2s;
 }
 
 #quickmenu-wrapper .quick-buttons-container .quick-button:hover,
 #quickmenu-wrapper .primary-buttons-container .quick-button:hover {
   background-color: var(--element-hover);
+  scale: 105%;
 }
 #quickmenu-wrapper .quick-buttons-container .quick-button.disabled,
 #quickmenu-wrapper .primary-buttons-container .quick-button.disabled {
   background-color: var(--element-background-dark);
-  transition: background-color 0.2s;
+  transition: all 0.2s;
 }
 #quickmenu-wrapper .quick-buttons-container .quick-button.disabled:hover,
 #quickmenu-wrapper .primary-buttons-container .quick-button.disabled:hover {
   background-color: var(--element-hover);
+  scale: 100%;
 }
 #quickmenu-wrapper .quick-buttons-container .quick-button.disabled .icon,
 #quickmenu-wrapper .primary-buttons-container .quick-button.disabled .icon,
@@ -612,7 +614,7 @@ body {
   border-top-right-radius: var(--container-border-radius);
   border-bottom-left-radius: var(--container-border-radius);
   border-bottom-right-radius: var(--container-border-radius);
-  transition: background-color 0.2s;
+  transition: all 0.2s;
 }
 #quickmenu-wrapper .microphone-container.muted {
   background-color: var(--color-deny);
@@ -628,6 +630,7 @@ body {
 }
 #quickmenu-wrapper .microphone-container:hover {
   background-color: var(--element-hover);
+  scale: 105%;
 }
 #quickmenu-wrapper .game-rules {
   position: absolute;
@@ -761,10 +764,11 @@ body {
   top: 1304px;
   background-color: var(--element-background);
   border-radius: 10px;
-  transition: background-color 0.2s;
+  transition: all 0.2s;
 }
 #quickmenu-wrapper .avatar-actions .container-back:hover {
   background-color: var(--element-hover);
+  scale: 102%;
 }
 #quickmenu-wrapper .avatar-actions .container-back .icon {
   width: 100px;
@@ -858,10 +862,11 @@ body {
   border-bottom-color: var(--color-btn-border);
   margin-top: 23px;
   padding: 3px;
-  transition: background-color 0.2s;
+  transition: all 0.2s;
 }
 #quickmenu-wrapper .advanced-avatar .container-profiles .profile-buttons .button:hover {
   background-color: var(--element-hover);
+  scale: 105%;
 }
 #quickmenu-wrapper .advanced-avatar .container-profiles .profile-buttons .button .caption {
   position: absolute;
@@ -896,10 +901,11 @@ body {
   top: 1304px;
   background-color: var(--element-background);
   border-radius: 10px;
-  transition: background-color 0.2s;
+  transition: all 0.2s;
 }
 #quickmenu-wrapper .advanced-avatar .container-back:hover {
   background-color: var(--element-hover);
+  scale: 102%;
 }
 #quickmenu-wrapper .advanced-avatar .container-back .icon {
   width: 100px;
