@@ -14,4 +14,4 @@ Then, you can download and extract the repository ZIP file, or do a `git clone h
 
 ## Legal section
 
-This project is under the game's own license (even if this project is not affiliate with ABI). For any reclamations or any problems about it, please let me know and send me an email at : louis.de.macedo.ldm@gmail.com 
+This project is under the game's own license (even if this project is not affiliated with ABI). For any reclamations or any problems about it, please let me know and send me an email at : louis.de.macedo.ldm@gmail.com 
