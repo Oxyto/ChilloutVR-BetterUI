@@ -761,6 +761,10 @@ body {
   top: 1304px;
   background-color: var(--element-background);
   border-radius: 10px;
+  transition: background-color 0.2s;
+}
+#quickmenu-wrapper .avatar-actions .container-back:hover {
+  background-color: var(--element-hover);
 }
 #quickmenu-wrapper .avatar-actions .container-back .icon {
   width: 100px;
@@ -854,9 +858,10 @@ body {
   border-bottom-color: var(--color-btn-border);
   margin-top: 23px;
   padding: 3px;
+  transition: background-color 0.2s;
 }
 #quickmenu-wrapper .advanced-avatar .container-profiles .profile-buttons .button:hover {
-  filter: brightness(125%);
+  background-color: var(--element-hover);
 }
 #quickmenu-wrapper .advanced-avatar .container-profiles .profile-buttons .button .caption {
   position: absolute;
@@ -891,6 +896,10 @@ body {
   top: 1304px;
   background-color: var(--element-background);
   border-radius: 10px;
+  transition: background-color 0.2s;
+}
+#quickmenu-wrapper .advanced-avatar .container-back:hover {
+  background-color: var(--element-hover);
 }
 #quickmenu-wrapper .advanced-avatar .container-back .icon {
   width: 100px;
