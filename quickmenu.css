@@ -390,7 +390,7 @@ body {
 #quickmenu-wrapper .quick-buttons-container .quick-button.disabled:hover,
 #quickmenu-wrapper .primary-buttons-container .quick-button.disabled:hover {
   background-color: var(--element-hover);
-  scale: 100%;
+  scale: 105%;
 }
 #quickmenu-wrapper .quick-buttons-container .quick-button.disabled .icon,
 #quickmenu-wrapper .primary-buttons-container .quick-button.disabled .icon,
