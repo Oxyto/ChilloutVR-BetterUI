@@ -389,7 +389,6 @@ body {
 }
 #quickmenu-wrapper .quick-buttons-container .quick-button.disabled:hover,
 #quickmenu-wrapper .primary-buttons-container .quick-button.disabled:hover {
-  background-color: var(--element-hover);
   scale: 105%;
 }
 #quickmenu-wrapper .quick-buttons-container .quick-button.disabled .icon,
@@ -629,7 +628,6 @@ body {
   background-position: -980px -140px;
 }
 #quickmenu-wrapper .microphone-container:hover {
-  background-color: var(--element-hover);
   scale: 105%;
 }
 #quickmenu-wrapper .game-rules {
