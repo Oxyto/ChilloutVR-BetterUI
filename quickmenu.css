@@ -211,10 +211,14 @@ body {
   border-bottom-color: var(--standard-text-color);
   border-radius: 3px;
   color: var(--font-color-dark);
-  transition: background-color 0.2s;
+  transition: all 0.2s;
 }
 #quickmenu-wrapper .notification-container .header-button:hover {
   background-color: white;
+  scale: 102%;
+}
+#quickmenu-wrapper .notification-container .header-button:active {
+  scale: 99%;
 }
 #quickmenu-wrapper .notification-container .notifications-wrapper {
   width: 748px;
@@ -323,6 +327,9 @@ body {
 #quickmenu-wrapper .toolbar-container .button:hover {
   scale: 115%;
 }
+#quickmenu-wrapper .toolbar-container .button:active {
+  scale: 98%;
+}
 #quickmenu-wrapper .toolbar-container .button-prev {
   top: 40px;
   left: 35px;
@@ -382,6 +389,10 @@ body {
   background-color: var(--element-hover);
   scale: 105%;
 }
+#quickmenu-wrapper .quick-buttons-container .quick-button:active,
+#quickmenu-wrapper .primary-buttons-container .quick-button:active {
+  scale: 98%;
+}
 #quickmenu-wrapper .quick-buttons-container .quick-button.disabled,
 #quickmenu-wrapper .primary-buttons-container .quick-button.disabled {
   background-color: var(--element-background-dark);
@@ -390,6 +401,10 @@ body {
 #quickmenu-wrapper .quick-buttons-container .quick-button.disabled:hover,
 #quickmenu-wrapper .primary-buttons-container .quick-button.disabled:hover {
   scale: 105%;
+}
+#quickmenu-wrapper .quick-buttons-container .quick-button.disabled:active,
+#quickmenu-wrapper .primary-buttons-container .quick-button.disabled:active {
+  scale: 98%;
 }
 #quickmenu-wrapper .quick-buttons-container .quick-button.disabled .icon,
 #quickmenu-wrapper .primary-buttons-container .quick-button.disabled .icon,
@@ -630,6 +645,9 @@ body {
 #quickmenu-wrapper .microphone-container:hover {
   scale: 105%;
 }
+#quickmenu-wrapper .microphone-container:active {
+  scale: 98%;
+}
 #quickmenu-wrapper .game-rules {
   position: absolute;
   top: 1440px;
@@ -768,6 +786,9 @@ body {
   background-color: var(--element-hover);
   scale: 102%;
 }
+#quickmenu-wrapper .avatar-actions .container-back:active {
+  scale: 99%;
+}
 #quickmenu-wrapper .avatar-actions .container-back .icon {
   width: 100px;
   height: 100px;
@@ -866,6 +887,9 @@ body {
   background-color: var(--element-hover);
   scale: 105%;
 }
+#quickmenu-wrapper .advanced-avatar .container-profiles .profile-buttons .button:active {
+  scale: 98%;
+}
 #quickmenu-wrapper .advanced-avatar .container-profiles .profile-buttons .button .caption {
   position: absolute;
   top: 12px;
@@ -904,6 +928,9 @@ body {
 #quickmenu-wrapper .advanced-avatar .container-back:hover {
   background-color: var(--element-hover);
   scale: 102%;
+}
+#quickmenu-wrapper .advanced-avatar .container-back:active {
+  scale: 99%;
 }
 #quickmenu-wrapper .advanced-avatar .container-back .icon {
   width: 100px;
