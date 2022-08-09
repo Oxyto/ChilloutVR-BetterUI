@@ -391,6 +391,7 @@ body {
 }
 #quickmenu-wrapper .quick-buttons-container .quick-button:active,
 #quickmenu-wrapper .primary-buttons-container .quick-button:active {
+  background-color: var(--element-hover);
   scale: 98%;
 }
 #quickmenu-wrapper .quick-buttons-container .quick-button.disabled,
