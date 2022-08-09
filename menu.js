@@ -222,8 +222,8 @@ cvr.menu = function(e, m) {
                             {c: "quick-button friends", s: [{c: "icon"}, {c: "label", h: t("core-category-friends")}], a:{"data-category": "friends"}, x: "showMainMenuPage"},
                             {c: "quick-button groups disabled", s: [{c: "icon"}, {c: "label", h: t("core-category-groups")}], x: "notImplementedPage"},
                             {c: "quick-button events disabled", s: [{c: "icon"}, {c: "label", h: t("core-category-events")}], x: "notImplementedPage"},
-                            {c: "quick-button gohome", s: [{c: "icon"}, {c: "label", h: "Go Home"}], a:{"data-category": "exit"}, x: "showMainMenuPage"},
-                            {c: "quick-button currinst", s: [{c: "icon"}, {c: "label", h: "Current Instance"}], a:{"data-category": "currentInstance"}, x: "showMainMenuPage"}
+                            {c: "quick-button gohome", s: [{c: "icon"}, {c: "label", h: t("core-category-gohome")}], a:{"data-category": "exit"}, x: "showMainMenuPage"},
+                            {c: "quick-button currinst", s: [{c: "icon"}, {c: "label", h: t("core-category-currinst")}], a:{"data-category": "currentInstance"}, x: "showMainMenuPage"}
                         ]},
                     {c: "row", s: [
                             {c: "quick-button worlds", s: [{c: "icon"}, {c: "label", h: t("core-category-worlds")}], a:{"data-category": "worlds"}, x: "showMainMenuPage"},

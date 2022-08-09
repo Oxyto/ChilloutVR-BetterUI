@@ -13,6 +13,8 @@ cvr.registerNewLanguage("en", "English", {
     "core-category-props": "Props",
     "core-category-emotes": "Emotes & Toggles",
     "core-category-events": "Events",
+    "core-category-currinst": "Current Instance",
+    "core-category-gohome": "Go Home",
     "core-greeting": "Welcome, [playername]",
     "core-datetime-format": "[monthname] [day], [year]",
     "core-month-0": "January",
