@@ -42,6 +42,7 @@ body {
   height: 2048px;
 }
 #quickmenu-wrapper {
+  user-select: none;
   background-color: var(--wrapper-background);
   margin-left: 304px;
   margin-top: 304px;
