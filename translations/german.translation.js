@@ -13,6 +13,8 @@ cvr.registerNewLanguage("de", "Deutsch", {
     "core-category-props": "Requisiten",
     "core-category-emotes": "Avatar Aktionen",
     "core-category-events": "Veranstal&shy;tungen",
+    "core-category-currinst": "Aktuelle Instanz",
+    "core-category-gohome": "Gehe zu Home",
     "core-greeting": "Willkommen, [playername]",
     "core-datetime-format": "[day]. [monthname] [year]",
     "core-month-0": "Januar",
